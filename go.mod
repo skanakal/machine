@@ -5,7 +5,7 @@ go 1.22.0
 toolchain go1.22.6
 
 replace (
-	github.com/docker/docker => github.com/moby/moby v1.4.2-0.20170731201646-1009e6a40b29
+	github.com/docker/docker => github.com/moby/moby v1.13.1
 	github.com/urfave/cli => github.com/urfave/cli v1.11.1-0.20151120215642-0302d3914d2a // newer versions of this will break the rpc binding code
 )
 
@@ -52,6 +52,7 @@ require (
 	github.com/Azure/go-autorest/autorest/validation v0.2.0 // indirect
 	github.com/Azure/go-autorest/logger v0.2.1 // indirect
 	github.com/Azure/go-autorest/tracing v0.6.0 // indirect
+	github.com/Sirupsen/logrus v1.0.6 // indirect
 	github.com/bitly/go-simplejson v0.5.0 // indirect
 	github.com/bugsnag/osext v0.0.0-20130617224835-0dd3f918b21b // indirect
 	github.com/bugsnag/panicwrap v0.0.0-20160118154447-aceac81c6e2f // indirect
@@ -112,6 +113,8 @@ require (
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240823204242-4ba0660f739c // indirect
 	google.golang.org/grpc v1.65.0 // indirect
 	google.golang.org/protobuf v1.34.2 // indirect
+	gopkg.in/airbrake/gobrake.v2 v2.0.9 // indirect
+	gopkg.in/gemnasium/logrus-airbrake-hook.v2 v2.1.2 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/klog/v2 v2.120.1 // indirect
