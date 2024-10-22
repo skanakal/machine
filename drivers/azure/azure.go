@@ -193,6 +193,7 @@ func (d *Driver) GetCreateFlags() []mcnflag.Flag {
 			Name:   flAzureImage,
 			Usage:  "Azure virtual machine OS image",
 			EnvVar: "AZURE_IMAGE",
+			Value:  defaultAzureImage,
 		},
 		mcnflag.StringFlag{
 			Name:   flAzureVNet,
